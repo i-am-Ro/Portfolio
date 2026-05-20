@@ -21,7 +21,7 @@ const Navbar = ({ islightmode, setIslightmode }) => {
       </ScrollLink>
 
       <ul className="hidden md:flex text-sm font-semibold gap-3">
-        {["home", "about", "projects", "contact"].map((section) => (
+        {["home", "about", "experience", "projects", "contact"].map((section) => (
           <ScrollLink
             key={section}
             to={section}
@@ -76,7 +76,7 @@ const Navbar = ({ islightmode, setIslightmode }) => {
         }`}
       >
         <ul className="flex flex-col text-sm font-semibold gap-3 p-2 ml-2 text-gray-900">
-          {["home", "about", "projects", "contact"].map((section) => (
+          {["home", "about", "experience", "projects", "contact"].map((section) => (
             <ScrollLink
               key={section}
               to={section}

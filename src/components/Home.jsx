@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from './Contact';
 import About from './About';
+import Experience from './Experience';
 import Projects from './Projects';
 import Hero from './Hero';
 
@@ -14,6 +15,7 @@ const Home = (props) => {
       </div>
       
       <About islightmode={islightmode} />
+      <Experience islightmode={islightmode} />
       <Projects islightmode={islightmode} />
       <Contact islightmode={islightmode} />
     </div>
